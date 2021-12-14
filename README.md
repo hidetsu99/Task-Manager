@@ -15,7 +15,7 @@ For development, you will only need Node.js and a node global package.
     $ npm install
 
 ## Configure app
-Create a DB in mongo Atlas. It's free :)
+Create a DB in mongo Atlas. It's free :) /n
 Get the Mongo Uri string and change the USER and password with yours credentials (Don't change the collection name)  E.G: 'mongodb+srv://USER:<PASSWORD>@cluster0.j4uoj.mongodb.net/Task-Manager?retryWrites=true&w=majority'
 Create .env file in the path with a const MONGO_URI and Mongo uri string 
 
